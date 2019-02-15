@@ -26,6 +26,7 @@ def inventory_report(products):
     avg_flam = sum([prod.flammability for prod in products]) / 30
 
     return report_name, npr, f'Average price: {avg_price}', f'Average weight: {avg_weight}', f'Average flammability: {avg_flam}'
+    # Not sure how to get return statement to split in two lines
 
 
 if __name__ == '__main__':
