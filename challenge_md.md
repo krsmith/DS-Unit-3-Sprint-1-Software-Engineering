@@ -231,9 +231,23 @@ career here, you'll have to answer the following:
 - What, in your opinion, is an important part of code reviews? That is, what is
   something you pay attention to when you review code, and that you appreciate
   when others do the same for your code?
+
+    It is important to check on the functionality of the code. Is it working as 
+    expected? What is expected? That should be obvious in the comments that the
+    developer makes. Is it easy to read? Using a linter, you can see if it meets
+    stylistic requirements. Most of all, it's important to give detailed feedback
+    on the things you've found and as the person receiving feedback, to take it 
+    as constructive rather than deconstructive.
+
 - We have an awful lot of computers here, and it gets pretty confusing with
   slightly different things running on all of them. How could containers help us
   improve this situation?
+
+    When using a container, you are able to set it up exactly how you want with
+    the things you'll be needing for the work you're doing. If you only need
+    a few libraries like numpy, pandas, sklearn, that's all you have to add to it.
+    They also require less memory space and are very lightweight, running ontop of 
+    the host OS. This makes maintenance a lot less time consuming and reduces overhead.
 
 Answer both of these questions (baseline ~5 sentences) here in text.
 
